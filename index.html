@@ -390,6 +390,24 @@
 
     <!--Scroll back to top button starts here-->
     <a id="back-to-top" href="#" class="btn btn-light btn-md back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+    <script>
+      $(document).ready(function(){
+        $(window).scroll(function () {
+        if ($(this).scrollTop() > 50) {
+          $('#back-to-top').fadeIn();
+        } else {
+          $('#back-to-top').fadeOut();
+        }
+		  });
+      // scroll body to 0px on click
+      $('#back-to-top').click(function () {
+        $('body,html').animate({
+          scrollTop: 0
+        }, 400);
+        return false;
+      });
+    });
+    </script>
 
     <!-- jQuery first, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
