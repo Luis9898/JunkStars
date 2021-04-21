@@ -4,7 +4,7 @@ html,body,
       height: 100%;
     }
 
-    /* Carousel*/
+    /* Carousel*/    
     .carousel,
     .carousel-item,
     .carousel-item.active {
@@ -48,6 +48,13 @@ img {
 
 .Contact{
     padding: 2rem;
+}
+
+.back-to-top {
+    position: sticky;
+    bottom: 15px;
+    right: 15px;
+    display: true;
 }
 
 /* cover */
