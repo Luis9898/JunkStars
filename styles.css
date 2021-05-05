@@ -14,13 +14,13 @@ html,body,
       height: 100%;
     }
     .carousel-item:nth-child(1) {
-      background-image: url(img/junk.PNG);
+      background-image: url(img/Logo.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
     }
     .carousel-item:nth-child(2) {
-      background-image: url(img/Neighbors_Messy_Yard.jpeg);
+      background-image: url(img/caro_2.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
@@ -40,6 +40,7 @@ img {
     top: 0px;
     width: 100%;
 }
+
 
 .bg-custom{
     background-color: #000000;
@@ -78,7 +79,7 @@ img {
 }
 
 #about {
-    background: url('img/About_Us.jpeg') center center no-repeat;
+    background: url('img/Junk_banner2.jpg') center center no-repeat;
     background-size: cover;
 }
 
